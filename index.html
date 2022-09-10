@@ -10,7 +10,7 @@
 
       html {
         font-family: 'Open Sans', sans-serif;
-        background: url(pattern.png);
+        background: url(pattern.PNG);
       }
 
       body {
@@ -102,7 +102,7 @@
       <h1>Mozilla</h1>
       <!-- insert <img> element, link to the small
           version of the Firefox logo -->
-     <img src="../mozilla-splash/firefox-logo120.png" alt="firefox logo small">
+     <img src="firefox-logo120.png" alt="firefox logo small">
     </header>
 
     <main>
@@ -119,26 +119,25 @@
       <div class="further-info">
         <!-- insert images with srcsets and sizes -->
         <a href="https://www.mozilla.org/en-US/firefox/new/">
-          <img src="../mozilla-splash/firefox-logo400.png">
-          <img srcset="firefox-logo400 400w,
-                       firefox-logo120, 120w"
+          <img src="firefox-logo400.png" alt="firefox logo"
+                    srcset="firefox-logo400.png 400w,
+                            firefox-logo120.png 120w"
                sizes="(max-width: 500px) 120px, 400px">
         </a>
         <a href="https://www.mozilla.org/">
-               <img srcset="mozilla-dinosaur-head-400.png 400w,
-               mozilla-dinosaur-head-120.png 120w"
-        src="../mozilla-splash/mozilla-dinosaur-head-400.png" alt="dinosaur"
-  sizes="(max-width: 500px) 120px, 4000px">
+               <img src="mozilla-dinosaur-head-400.png" alt="dinosaur"
+               srcset="mozilla-dinosaur-head-400.png 400w,
+                       mozilla-dinosaur-head-120.png 120w"
+               sizes="(max-width: 500px) 120px, 4000px">
         </a>
         <a href="https://addons.mozilla.org/">
-          <img srcset="firefox-addons-400.png 400w,
+          <img src="firefox-addons-400.png" alt="addons"
+               srcset="firefox-addons-400.png 400w,
                        firefox-addons-120.png 120w"
-                       src="../mozilla-splash/firefox-addons-400.png" alt="addons"
-               sizes="(max-width: 500px) 120px, 400px"
-               alt="addons">
+               sizes="(max-width: 500px) 120px, 400px">
         </a>
         <a href="https://developer.mozilla.org/en-US/">
-          <img src="../mozilla-splash/mdn.svg">
+          <img src="mdn.svg" alt="svg image">
         </a>
         <div class="clearfix"></div>
       </div>
@@ -148,7 +147,7 @@
         <picture>
           <source media="(max-width: 599px)" srcset="red-panda-600.png">
           <source media="(min-width: 600px)" srcset="red-panda-1200.png">
-          <img src="../mozilla-splash/red-panda-1200.png">
+          <img src="red-panda-1200.png" alt="panda">
         </picture>
       </div>
 
